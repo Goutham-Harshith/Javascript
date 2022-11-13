@@ -20,6 +20,7 @@
 
 .chat-list
 {
+    min-height: 300px;
     max-height: 400px;
     overflow-y: auto;
 }
@@ -30,6 +31,17 @@
   text-decoration: none;
   background: white;
   border: 1px solid #43d9be;
+  position: relative;
+}
+
+.group-tab .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: #ff3838;
+  color: white;
 }
 
 .group-tab:hover
@@ -67,3 +79,13 @@
   border-radius: 10px;
 }
 
+.bg-lime-green
+{
+  background-color: #43d9be;
+}
+
+.bg-blue
+{
+  background-color: #1765b9;
+  color: white;
+}
